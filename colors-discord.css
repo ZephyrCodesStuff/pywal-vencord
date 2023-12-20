@@ -25,7 +25,7 @@
     --profile-gradient-secondary-color: {background};
     --profile-body-background-color: {background};
 
-    --__header-bar-background: {background};
+    --__header-bar-background: {background} !important;
 
     --scrollbar-auto-track: {background};
     --scrollbar-thin-track: {background};
