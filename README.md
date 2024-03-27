@@ -9,7 +9,7 @@ pywal-vencord is a Pywal template file for Discord's modified Vencord client. It
 1. Install Pywal if you don't already have it.
 2. Clone this repository to your computer and copy the `colors-discord.css` file in your `$HOME/.config/wal/templates` directory.
 3. Run `wal -i <image>`. This will generate a Vencord theme in your `$HOME/.cache/wal` directory.
-4. Create a symbolic link as follows: `ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/VencordDesktop/VencordDesktop/themes/pywal-vencord.theme.css`
+4. Create a symbolic link as follows: `ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/vesktop/themes/pywal-vencord.theme.css`
 5. Go on Vencord's Themes tab and click on "Load missing themes". Finally, enable the theme.
 
 Note that you will have to reload the theme manually every time your color scheme changes.
