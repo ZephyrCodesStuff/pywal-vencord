@@ -29,6 +29,9 @@
 
     --scrollbar-auto-track: {background};
     --scrollbar-thin-track: {background};
+
+    /* primary.* */
+    --primary-630: {background};
     
     /* *.color2 */
     --scrollbar-auto-thumb: {color2};
