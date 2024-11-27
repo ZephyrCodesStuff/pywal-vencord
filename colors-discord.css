@@ -31,6 +31,7 @@
     --scrollbar-thin-track: {background};
 
     /* slightly darker background - useful for separating */
+    --input-background: color-mix(in srgb, {background}, black 20%);
     --autocomplete-bg: color-mix(in srgb, {background}, black 20%);
     --background-nested-floating: color-mix(in srgb, {background}, black 20%);
     --background-floating: color-mix(in srgb, {background}, black 20%);
