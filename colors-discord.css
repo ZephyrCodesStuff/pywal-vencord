@@ -24,24 +24,35 @@
 
     --profile-gradient-primary-color: {background};
     --profile-gradient-secondary-color: {background};
-    --profile-body-background-color: {background};
 
     --__header-bar-background: {background} !important;
 
     --scrollbar-auto-track: {background};
     --scrollbar-thin-track: {background};
 
+    /* slightly darker background - useful for separating */
+    --autocomplete-bg: color-mix(in srgb, {background}, black 20%);
+    --background-nested-floating: color-mix(in srgb, {background}, black 20%);
+    --background-floating: color-mix(in srgb, {background}, black 20%);
+
     /* primary.* */
     --primary-630: {background};
-    
-    /* *.color2 */
+
+    /* *.color2 - secondary elements */
     --scrollbar-auto-thumb: {color2};
     --scrollbar-thin-thumb: {color2};
+    --interactive-muted: {color2};
+    --text-muted: {color2};
+    --background-modifier-hover: color-mix(in srgb, {color2}, black 40%);
+    --background-modifier-active: color-mix(in srgb, {color2}, black 20%);
+    --background-modifier-accent: {color2};
+    --background-accent: {color2};
 
     /* *.color3 */
     --red-400: {color3};
+    --background-modifier-selected: {color3};
 
-    /* *.color4 */
+    /* *.color4 - main theme color: flashy, important elements */
     --status-danger: {color4};
     --button-outline-danger-border: {color4};
     --button-outline-danger-text: {color4};
@@ -49,7 +60,7 @@
 
     --yellow-300: {color4};
 
-    /* *.color5 */
+    /* *.color5 - light theme color */
     --header-primary: {color5};
     --brand-experiment: {color5};
     --brand-experiment-360: {color5};
@@ -58,11 +69,11 @@
 
     --green-360: {color5};
 
-    /* *.color6 */
+    /* *.color6 - lighter theme color */
     --channels-default: {color6};
     --channel-icon: {color6};
 
-    /* *.color7 */
+    /* *.color7 - very light, text and foreground */
     --text-normal: {color7};
     --interactive-active: {color7};
 }}
